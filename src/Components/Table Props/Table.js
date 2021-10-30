@@ -144,6 +144,7 @@ const Table = () => {
       </div>
       {pageArray.map((item) => (
         <MyButton
+          key={item}
           className={`btn mx-1  ${
             page === item ? "btn-primary" : "btn-outline-primary"
           }`}
